@@ -15,7 +15,7 @@ Merge dev to current branch
 ```bash
 git merge dev
 ```
-###Push your changes to remote
+#### Push your changes to remote
 ```bash
 git push origin development
 ```
