@@ -20,6 +20,8 @@ transporter.sendMail({
        res.send(info);
      }
   });
+
+  
   
   //https://nodemailer.com/message/attachments/
 //https://community.nodemailer.com/using-attachments/
