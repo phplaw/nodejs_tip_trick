@@ -2,7 +2,7 @@
 //to send email in nodejs we using nodemailer <https://github.com/nodemailer/nodemailer> _
 
 transporter.sendMail({
-  from: 'foo@bar.com'.
+  from: 'foo@bar.com',
   to: 'bar@foo.com',
   subject: 'An Attached File',
   text: 'Check out this attached pdf file',
@@ -19,9 +19,11 @@ transporter.sendMail({
        console.log(info);
        res.send(info);
      }
-  });
+  }
+}
+);
 
-  
+
   
   //https://nodemailer.com/message/attachments/
 //https://community.nodemailer.com/using-attachments/
