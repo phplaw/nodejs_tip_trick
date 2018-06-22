@@ -1,5 +1,5 @@
-### SEND EMAIL IN NODEJS
-_ to send email in nodejs we using nodemailer <https://github.com/nodemailer/nodemailer> _
+// SEND EMAIL IN NODEJS
+//to send email in nodejs we using nodemailer <https://github.com/nodemailer/nodemailer> _
 
 transporter.sendMail({
   from: 'foo@bar.com'.
