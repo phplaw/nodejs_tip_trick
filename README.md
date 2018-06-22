@@ -21,6 +21,9 @@ app.post('/', function(req, res, next) {
 ```bash
 echo "export PROJECT_EVN=development" >> .bash_profile
 source .bash_profile
+
+--- output multiple line
+echo -e "Hello \n Sonny";
 ```
 
 ```js
