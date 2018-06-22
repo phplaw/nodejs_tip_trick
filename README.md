@@ -17,6 +17,9 @@ app.post('/', function(req, res, next) {
 });
 
 ```
+### CORS on IONIC
+https://blog.ionicframework.com/handling-cors-issues-in-ionic/
+
 ### ADD ENVIRONMENT VARIABLE
 ```bash
 echo "export PROJECT_EVN=development" >> .bash_profile
