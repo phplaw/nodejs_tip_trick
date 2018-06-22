@@ -17,3 +17,11 @@ app.post('/', function(req, res, next) {
 });
 
 ```
+### ADD ENVIRONMENT VARIABLE
+```bash
+echo export PROJECT_EVN=development >> .bash_profile
+```
+
+```js
+process.env.project_evn
+```
