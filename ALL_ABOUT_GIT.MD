@@ -1,0 +1,21 @@
+show all branchs
+```bash
+git branch
+```
+Check out a branch then active to that branch
+
+```bash
+git checkout development
+u can check for current branch using the same command
+```
+```bash
+git branch
+```
+Merge dev to current branch
+```bash
+git merge dev
+```
+###Push your changes to remote
+```bash
+git push origin development
+```
