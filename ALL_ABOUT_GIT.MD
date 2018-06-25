@@ -28,3 +28,5 @@ git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
 
 
 Copy your key to your clipboard with `cat ~/.ssh/id_rsa.pub | pbcopy` .
+
+Copy all content in a folder to a nother place `cp -a /source/. /dest/` *.* for coppying all of files inclue hidden files
