@@ -19,3 +19,9 @@ git merge dev
 ```bash
 git push origin development
 ```
+
+### Clone with less history to new directory
+```bash
+git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
+
+```
