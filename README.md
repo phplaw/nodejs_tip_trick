@@ -17,8 +17,12 @@ app.post('/', function(req, res, next) {
 });
 
 ```
+```php
+header("Access-Control-Allow-Origin: *");
+```
 ### CORS on IONIC
 https://blog.ionicframework.com/handling-cors-issues-in-ionic/
+https://stackoverflow.com/questions/41861105/handling-cors-issues-in-ionic?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
 https://enable-cors.org/server.html
 
