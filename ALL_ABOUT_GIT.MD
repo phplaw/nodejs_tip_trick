@@ -37,3 +37,9 @@ Commit all changes to server
 ```bash
 git commit --all  -m 'Your message here'
 ```
+
+
+```bash
+git branch -v -a
+git fetch && git checkout your-branch
+```
