@@ -1,4 +1,7 @@
 ```javascript
+// source: https://codeburst.io/node-js-mysql-and-promises-4c3be599909b
+
+
 const mysql = require( 'mysql' );
 class Database {
     constructor( config ) {
@@ -86,4 +89,10 @@ Database.execute( config,
 } ).catch( err => {
     // handle the error
 } );
+
+// You can use async/await to call the db.query() method, for example:
+const db = new Database();
+const rows = await db.query( 'select ...' );
+//It’s not possible to use async/await in the Database class itself, 
+// because the MySQL API uses callbacks and async/await is only designed to work with promises.
 ```
