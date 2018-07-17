@@ -34,11 +34,15 @@ database.query( 'SELECT * FROM some_table' )
     .then( rows => {
         otherRows = rows;
         return database.close();
+    }, err => {
+        return database.close().then( () => { throw err; } )
     } )
     .then( () => {
         // do something with someRows and otherRows
-    } );
-    
+    }
+    .catch( err => {
+        // handle the error
+    } )
 // END EXAMPLE
 
 Database.execute = function( config, callback ) {
