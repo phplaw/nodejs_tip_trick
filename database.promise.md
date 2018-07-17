@@ -24,6 +24,23 @@ class Database {
     }
 }
 
+// EXAMPLE HERE
+let someRows, otherRows;
+database.query( 'SELECT * FROM some_table' )
+    .then( rows => {
+        someRows = rows;
+        return database.query( 'SELECT * FROM other_table' );
+    } )
+    .then( rows => {
+        otherRows = rows;
+        return database.close();
+    } )
+    .then( () => {
+        // do something with someRows and otherRows
+    } );
+    
+// END EXAMPLE
+
 Database.execute = function( config, callback ) {
     const database = new Database( config );
     return callback( database ).then(
