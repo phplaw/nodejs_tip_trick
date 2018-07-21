@@ -67,3 +67,13 @@ https://github.com/twigjs/twig.js
 
 https://github.com/typicode/lowdb
 https://www.npmjs.com/package/node-cache
+
+### ISSUE WITH PERMISSION WHEN INSTALL PACKAGE WITH NPM
+<a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" target="_blank">Source</a>
+```bash
+sudo chown -R $USER /usr/local
+sudo chown -R $(whoami) ~/.npm
+
+sudo chown -R $USER /Users/sonnynguyen/.npm-global
+```
+
