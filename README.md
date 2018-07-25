@@ -52,6 +52,20 @@ if(process.env.project_evn == 'development') {
         }
         
 ```
+### FORECE USER TO USE HTTPS
+```javascript
+var express = require('express');
+var app = express();
+app.use( function(req, res, next) {
+        // force user to use https on PROD
+        if (!req.secure) {
+            console.log('User is on http, going to force user to use https!');
+            return res.redirect('https://' + req.get('host') + req.url);
+        }
+        next();
+    }
+);
+```
 ### TEMPLATE ENGINE
 
 https://github.com/baryshev/ect [The best one]
