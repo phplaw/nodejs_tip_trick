@@ -52,6 +52,20 @@ if(process.env.project_evn == 'development') {
         }
         
 ```
+### FORECE USER TO USE HTTPS
+```javascript
+var express = require('express');
+var app = express();
+app.use( function(req, res, next) {
+        // force user to use https on PROD
+        if (!req.secure) {
+            console.log('User is on http, going to force user to use https!');
+            return res.redirect('https://' + req.get('host') + req.url);
+        }
+        next();
+    }
+);
+```
 ### TEMPLATE ENGINE
 
 https://github.com/baryshev/ect [The best one]
@@ -61,3 +75,19 @@ https://odino.org/the-simplest-template-engine-for-nodejs/
 https://mozilla.github.io/nunjucks/ `{% extends "base.html" %}`
 
 https://github.com/Deathspike/template-benchmark Template benchmark
+https://github.com/twigjs/twig.js
+
+### NODE JS AWESOME PARKAGES
+
+https://github.com/typicode/lowdb
+https://www.npmjs.com/package/node-cache
+
+### ISSUE WITH PERMISSION WHEN INSTALL PACKAGE WITH NPM
+<a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" target="_blank">Source</a>
+```bash
+sudo chown -R $USER /usr/local
+sudo chown -R $(whoami) ~/.npm
+
+sudo chown -R $USER /Users/sonnynguyen/.npm-global
+```
+
