@@ -69,6 +69,15 @@ app.use( function(req, res, next) {
     }
 );
 ```
+### NODE_EVN environment variable
+```bash
+# Linux & OSX:
+export NODE_ENV=production
+# Windows:
+SET NODE_ENV=production
+# for all flatforms
+NODE_ENV=production node myapp.js
+```
 ### TEMPLATE ENGINE
 
 https://github.com/baryshev/ect [The best one]
