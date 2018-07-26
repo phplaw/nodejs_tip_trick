@@ -58,7 +58,7 @@ var express = require('express');
 var app = express();
 app.use( function(req, res, next) {
         // force user to use https on PROD
-        if (!req.secure) {
+        if (!req.secure && req.headers['x-forwarded-proto'] !== 'https' && process.env.NODE_ENV !== "development") {
             console.log('User is on http, going to force user to use https!');
             return res.redirect('https://' + req.get('host') + req.url);
         }
