@@ -25,7 +25,7 @@ git push origin development
 git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
 
 ```
-
+Commit all changes `git commit -a -m "Your message here"`
 
 Copy your key to your clipboard with `cat ~/.ssh/id_rsa.pub | pbcopy` .
 
@@ -42,4 +42,9 @@ git commit --all  -m 'Your message here'
 ```bash
 git branch -v -a
 git fetch && git checkout your-branch
+```
+
+### Merge a commit to a specific branch
+```bash
+git cherry-pick <commit hash>
 ```

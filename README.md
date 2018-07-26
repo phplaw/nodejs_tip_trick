@@ -78,6 +78,20 @@ SET NODE_ENV=production
 # for all flatforms
 NODE_ENV=production node myapp.js
 ```
+Now It is time for use your environment variable in server code
+```javascript
+console.log(process.env);
+console.log(process.env.PORT);
+console.log(process.env.NODE_ENV); // production | development
+// for easy to load env, we can just use this module https://www.npmjs.com/package/dotenv
+// thick packgae will autoload .env file in root to env
+/* @example .env file
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASS=s1mpl3
+    */
+// require('dotenv').config()
+```
 ### TEMPLATE ENGINE
 
 https://github.com/baryshev/ect [The best one]
