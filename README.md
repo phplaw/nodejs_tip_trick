@@ -90,4 +90,7 @@ sudo chown -R $(whoami) ~/.npm
 
 sudo chown -R $USER /Users/sonnynguyen/.npm-global
 ```
-
+### GIT CHECKOUT BRAND
+```bash
+it fetch && git checkout rc_force_https
+```
