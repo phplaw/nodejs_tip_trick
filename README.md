@@ -58,7 +58,10 @@ var express = require('express');
 var app = express();
 app.use( function(req, res, next) {
         // force user to use https on PROD
-        if (!req.secure) {
+        // if (!/https/.test(req.protocol)) res.redirect("https://" + req.headers.host + req.url);
+        if (!req.secure
+        && req.headers['x-forwarded-proto'] !== 'https'
+        && process.env.NODE_ENV !== "development") {
             console.log('User is on http, going to force user to use https!');
             return res.redirect('https://' + req.get('host') + req.url);
         }
@@ -90,4 +93,7 @@ sudo chown -R $(whoami) ~/.npm
 
 sudo chown -R $USER /Users/sonnynguyen/.npm-global
 ```
-
+### GIT CHECKOUT BRAND
+```bash
+git fetch && git checkout rc_force_https
+```
