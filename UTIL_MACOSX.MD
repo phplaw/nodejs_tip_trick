@@ -23,3 +23,9 @@ rm -Rf ~/.emulator_console_auth_token
 java -version
 echo $JAVA_HOME
 ```
+### Open hidden file on MACOSX
+```bash
+open -e .bash_profile
+
+source ~/.bash_profile
+```
