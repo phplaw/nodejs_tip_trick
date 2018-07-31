@@ -28,4 +28,6 @@ echo $JAVA_HOME
 open -e .bash_profile
 
 source ~/.bash_profile
+
+touch ~/.bash_profile; open -e ~/.bash_profile
 ```
