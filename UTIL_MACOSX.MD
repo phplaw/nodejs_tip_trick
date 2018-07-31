@@ -17,3 +17,9 @@ rm -Rf ~/.emulator_console_auth_token
 # /usr/local/var/lib/android-sdk/
 # echo $(whoami), echo $USER, echo $(pwd), pwd
 ```
+
+### Check java on mac
+```bash
+java -version
+echo $JAVA_HOME
+```
