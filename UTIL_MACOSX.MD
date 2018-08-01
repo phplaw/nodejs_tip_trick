@@ -57,3 +57,6 @@ echo "Hello, world $FIRST_ARGUMENT!"
 ```
 ### Open hidden file in MAC
 No setting but you can hit `cmd + shift + .` in the open file dialog to see hidden files`
+
+# Display list environemt variables in MACOSX
+We can use `env  OR printenv`
