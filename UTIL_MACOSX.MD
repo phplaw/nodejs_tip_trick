@@ -31,3 +31,16 @@ source ~/.bash_profile
 
 touch ~/.bash_profile; open -e ~/.bash_profile
 ```
+### Unload an automatic launch from MAC
+```bash
+sudo launchctl unload -w /Library/LaunchAgents/com.adobe.AAM.Updater-1.0.plist
+```
+
+### Set enviroment variables in MAC
+```bash
+#!/bin/sh
+export VARIABLE="value" 
+export VARIABLE2="value2"
+run_program
+# OR source ./config.sh
+````
