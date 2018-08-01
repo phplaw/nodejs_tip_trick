@@ -69,3 +69,7 @@ cat << EOF >> ~/.bash_profile
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
 ```
+### Check evironment variable was set
+```bash
+if [ -z "$var" ]; then echo "var is blank"; else echo "var is set to '$var'"; fi
+```
