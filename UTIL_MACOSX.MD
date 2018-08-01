@@ -44,3 +44,14 @@ export VARIABLE2="value2"
 run_program
 # OR source ./config.sh
 ````
+### make a shellscript on MAC
+```bash
+chmod u+x hello_world.sh
+./hello_world.sh
+
+# hello_world.sh content
+#!/bin/sh
+ 
+FIRST_ARGUMENT="$1"
+echo "Hello, world $FIRST_ARGUMENT!"
+```
