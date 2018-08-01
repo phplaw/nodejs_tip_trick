@@ -60,3 +60,12 @@ No setting but you can hit `cmd + shift + .` in the open file dialog to see hidd
 
 # Display list environemt variables in MACOSX
 We can use `env  OR printenv`
+
+### Run Visual Studio Code from command line
+To manually add VS Code to your path:
+```bash
+cat << EOF >> ~/.bash_profile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+```
