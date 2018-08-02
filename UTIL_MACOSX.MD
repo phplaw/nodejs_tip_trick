@@ -73,3 +73,5 @@ EOF
 ```bash
 if [ -z "$var" ]; then echo "var is blank"; else echo "var is set to '$var'"; fi
 ```
+### Resource for learning bash script on MAC OSX
+https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/shell_scripts/shell_scripts.html
