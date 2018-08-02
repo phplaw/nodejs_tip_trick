@@ -1,3 +1,7 @@
+### Check directory content size
+```bash
+du -sch $ANDROID_HOME
+```
 #### Uninstall Android Studio on MacOSX
 ```bash
 #!/bin/bash
