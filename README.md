@@ -142,6 +142,8 @@ sudo chown -R $USER /usr/local
 sudo chown -R $(whoami) ~/.npm
 
 sudo chown -R $USER /Users/sonnynguyen/.npm-global
+sudo chown -R $USER /Users/$USER/.npm-global
+do chown -R $USER /Users/$(whoami)/.npm-global
 ```
 ### GIT CHECKOUT BRAND
 ```bash
