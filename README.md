@@ -147,3 +147,7 @@ sudo chown -R $USER /Users/sonnynguyen/.npm-global
 ```bash
 git fetch && git checkout rc_force_https
 ```
+### Bous setting https for local development
+chrome://flags/#allow-insecure-localhost
+https://deliciousbrains.com/https-locally-without-browser-privacy-errors/
+https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec
