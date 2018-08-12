@@ -135,6 +135,11 @@ https://github.com/typicode/lowdb
 https://www.npmjs.com/package/node-cache
 https://www.npmjs.com/package/csurf
 
+### Monitor Socket On NodeJS
+https://www.rethinkdb.com/blog/websocket-debugging/
+http://drewblaisdell.github.io/monitor.io/
+
+
 ### ISSUE WITH PERMISSION WHEN INSTALL PACKAGE WITH NPM
 <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" target="_blank">Source</a>
 ```bash
