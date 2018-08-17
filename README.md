@@ -98,8 +98,9 @@ var redirectUrl = function (req, res) {
 
 ### Call & Apply
 ```javascript
-function.call(thisArg, arg1, arg2, arg3);
-function.apply(thisArg, [argsArray]);
+const x = () => { console.log(this);  return this; }
+x.call(thisArg, arg1, arg2, arg3);
+x.apply(thisArg, [argsArray]);
 ```
 ### NODE_EVN environment variable
 ```bash
