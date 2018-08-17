@@ -102,6 +102,7 @@ const x = () => { console.log(this);  return this; }
 x.call(thisArg, arg1, arg2, arg3);
 x.apply(thisArg, [argsArray]);
 ```
+http://hangar.runway7.net/javascript/difference-call-apply
 ### NODE_EVN environment variable
 ```bash
 # Linux & OSX:
