@@ -1,1 +1,1 @@
-git add -A && git commit -m 'Update master'
+git add -A && git commit -m 'Update master' && git push origin master
