@@ -22,6 +22,7 @@ header("Access-Control-Allow-Origin: *");
 ```
 ### CORS on IONIC
 https://blog.ionicframework.com/handling-cors-issues-in-ionic/
+
 https://stackoverflow.com/questions/41861105/handling-cors-issues-in-ionic?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
 https://enable-cors.org/server.html
@@ -135,6 +136,7 @@ https://odino.org/the-simplest-template-engine-for-nodejs/
 https://mozilla.github.io/nunjucks/
 
 https://github.com/Deathspike/template-benchmark Template benchmark
+
 https://github.com/twigjs/twig.js
 
 ### NODE JS AWESOME PARKAGES
@@ -142,12 +144,17 @@ https://github.com/remy/nodemon
 
 https://github.com/typicode/lowdb
 
+https://github.com/louischatriot/nedb
+
+https://github.com/feathersjs/feathers
+
 https://www.npmjs.com/package/node-cache
 
 https://www.npmjs.com/package/csurf
 
 ### Monitor Socket On NodeJS
 https://www.rethinkdb.com/blog/websocket-debugging/
+
 http://drewblaisdell.github.io/monitor.io/
 
 ### Awesome MVC Framework
@@ -173,4 +180,5 @@ git fetch && git checkout rc_force_https
 chrome://flags/#allow-insecure-localhost
 ```
 https://deliciousbrains.com/https-locally-without-browser-privacy-errors/
+
 https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec
