@@ -132,7 +132,7 @@ https://github.com/baryshev/ect [The best one]
 
 https://odino.org/the-simplest-template-engine-for-nodejs/
 
-https://mozilla.github.io/nunjucks/ `{% extends "base.html" %}`
+https://mozilla.github.io/nunjucks/
 
 https://github.com/Deathspike/template-benchmark Template benchmark
 https://github.com/twigjs/twig.js
