@@ -42,3 +42,5 @@ for (var i = 0; i < array.length; i++) {
 
 // static $count = 0;
 // $count++; => add this to your script <script id="input_id_{$count}">make_html(input_id_{$id_count})</script>
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/write
