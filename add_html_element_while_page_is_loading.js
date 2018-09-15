@@ -15,6 +15,10 @@ for (var i = 0; i < array.length; i++) {
     option.value = array[i];
     option.text = array[i];
     selectList.appendChild(option);
+  
+    //option.setAttribute('disabled', 'disabled');
+    //option.setAttribute('selected', 'selected');
+  
 }
     curScriptElement.parentNode.appendChild(selectList);
   
