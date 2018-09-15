@@ -39,3 +39,6 @@ for (var i = 0; i < array.length; i++) {
     }
 // run this in your html
 // <script>make_html_input()</script>
+
+// static $count = 0;
+// $count++; => add this to your script <script id="input_id_{$count}">make_html(input_id_{$id_count})</script>
