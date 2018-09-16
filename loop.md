@@ -26,5 +26,28 @@ function someFunc1(){
 someFunc1() ; //prints 1
 someFunc1() ; //prints 2
 someFunc1() ; //prints 3
+
+
+// public && private
+function MyClass () { // constructor function
+  var privateVariable = "foo";  // Private variable 
+
+  this.publicVariable = "bar";  // Public variable 
+
+  this.privilegedMethod = function () {  // Public Method
+    alert(privateVariable);
+  };
+}
+
+// Instance method will be available to all instances but only load once in memory 
+MyClass.prototype.publicMethod = function () {    
+  alert(this.publicVariable);
+};
+
+// Static variable shared by all instances
+MyClass.staticProperty = "baz";
+
+var myInstance = new MyClass();
+
 ```
 https://hackernoon.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7
