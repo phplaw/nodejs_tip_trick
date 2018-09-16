@@ -50,4 +50,30 @@ MyClass.staticProperty = "baz";
 var myInstance = new MyClass();
 
 ```
+
+### Bonus console.log tip & trick
+
+```javascript
+var user = {name: 'Mr. X', id: 4872, image: {src: 'some/source/4872.jpg', size: {x: 500, y: 500}}}
+
+console.log('User "%s" (Id: %d) has this image: %o', user.name, user.id, user.image);
+// style output with %c
+var cStyle = {red: 'color: red;', bold: 'font-weight: 700;', clear: ''}
+console.log(
+  'User %c"%s"%c (Id: %d) has this image: %o',
+  cStyle.red + cStyle.bold, // first %c
+  user.name, // %s
+  cStyle.clear, // second %c
+  user.id, // %d
+  user.image // %o
+);
+
+var people = [
+{name: 'Marie', age: 26, id: 0},
+{name: 'Hans', age: 30, id: 1},
+{name: 'Franz', age: 34, id: 2},
+{name: 'Susann', age: 31, id: 3}]
+console.table(people)
+
+```
 https://hackernoon.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7
