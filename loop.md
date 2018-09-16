@@ -10,4 +10,7 @@ while (x){
   }
 // x = !condition();
 }
+
+// a custom method for foreach
+function forEach(a, fn) { for (var i = 0, n = a.length; i < n; i++) fn(a[i]); }
 ```
