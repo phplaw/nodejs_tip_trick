@@ -73,7 +73,32 @@ var people = [
 {name: 'Hans', age: 30, id: 1},
 {name: 'Franz', age: 34, id: 2},
 {name: 'Susann', age: 31, id: 3}]
-console.table(people)
+console.table(people);
+// customer headings
+console.table(people, ['name', 'age']);
+
+// count number of execution
+console.count('imageLoaded')
+
+// timer
+
+console.time('myTimer')
+ // stuff happens
+ console.timeEnd('myTimer')
+ 
+ // debug
+ console.trace('Something when wrong');
+ 
+ // group
+console.group('entering group', 1)
+console.log('log entry in group 1')
+console.group('entering group', 2)
+console.log('log entry in group 2')
+console.log('another log entry in group 2')
+console.groupEnd()
+console.log('another log entry in group 1')
+console.groupEnd()
+
 
 ```
 https://hackernoon.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7
