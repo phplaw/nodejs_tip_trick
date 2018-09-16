@@ -5,7 +5,7 @@ for (var i = 0, n = arr.length; i < n; i++){}
 ```javascript
 var x = true;
 while (x){
-  if (!condition_for_stop_loop) {
+  if (condition_for_stop_loop) {
     x = false;
   }
 // x = !condition();
