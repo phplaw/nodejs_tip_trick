@@ -25,3 +25,6 @@ add(10).then(v => {
 })(10).then(v => {
   console.log(v);  // prints 60 after 2 seconds.
 });
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally
