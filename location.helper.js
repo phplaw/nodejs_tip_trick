@@ -1,4 +1,4 @@
-conlose.log( 
+console.log( 
 window.location.host + "\n" 
 + window.location.hostname
 + "\n" + window.location.port
