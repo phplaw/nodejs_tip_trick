@@ -23,3 +23,10 @@ window.localStorage.setItem('animal', dehydratedAnimal);
 
 //get 'animal' and rehydrate it  (convert it back JSON)
 var rehydratedAnimal = JSON.parse(window.localStorage.getItem('animal'));
+
+// REMOVE SPECIFIC ITEM
+localStorage.removeItem('myCat');
+// CLEAR ALL ITEM
+
+// clear all items
+localStorage.clear();
