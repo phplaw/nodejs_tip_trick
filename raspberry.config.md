@@ -33,3 +33,6 @@ https://retropie.org.uk/download/
 https://www.raspberrypi.org/downloads/raspbian/
 https://www.raspberrypi.org/downloads/noobs/
 https://www.hongkiat.com/blog/pi-operating-systems/
+
+### SSH PASSWORDLRESS
+https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md
