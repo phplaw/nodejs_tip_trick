@@ -1,3 +1,4 @@
+typeof variable === 'undefined';
 variable.constructor === Array;
 Array.isArray(variable);
 variable instanceof Array;
