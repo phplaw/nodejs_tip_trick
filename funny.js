@@ -4,7 +4,9 @@ Array.isArray(variable);
 variable instanceof Array;
 let x = [].concat([1,2,3,4];
                   
-                  
+ /*jshint esnext: true */
+/*jshint sub:true*/
+// may got issue with jshint
 const databases = {};
                   
 databases.helpdesk = require('sqlagent/pg').connect('connetion-string-to-postgresql');
