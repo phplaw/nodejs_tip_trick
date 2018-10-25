@@ -21,6 +21,7 @@ const args = process.argv
 
 console.log(args.foo)
 console.log(args.fizz)
+// https://docs.nodejitsu.com/articles/command-line/how-to-parse-command-line-arguments/
 
 
 
