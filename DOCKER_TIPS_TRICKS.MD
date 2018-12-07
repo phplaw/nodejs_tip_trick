@@ -18,3 +18,5 @@ https://docs.docker.com/get-started/part2/
 https://github.com/wsargent/docker-cheat-sheet
 
 https://viblo.asia/p/lam-viec-voi-docker-data-volumes-EoDGQOaNkbV
+
+https://kipalog.com/posts/Toi-da-dung-Docker-nhu-the-nao
