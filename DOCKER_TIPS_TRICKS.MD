@@ -13,4 +13,6 @@ EDIT: You should add filename (not just directory) with -o, for example:
 
 ```docker save -o c:/myfile.tar centos:16```
 
+https://docs.docker.com/get-started/part2/
+
 https://github.com/wsargent/docker-cheat-sheet
