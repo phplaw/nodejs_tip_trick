@@ -16,3 +16,5 @@ EDIT: You should add filename (not just directory) with -o, for example:
 https://docs.docker.com/get-started/part2/
 
 https://github.com/wsargent/docker-cheat-sheet
+
+https://viblo.asia/p/lam-viec-voi-docker-data-volumes-EoDGQOaNkbV
