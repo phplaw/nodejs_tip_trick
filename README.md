@@ -1,4 +1,4 @@
-# NodeJS Tips & Tricks for development
+# NodeJS Tips & Tricks for Development
 
 ### CORS on ExpressJS
 ```javascript
