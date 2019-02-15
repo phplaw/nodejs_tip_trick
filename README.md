@@ -128,18 +128,12 @@ console.log(process.env.NODE_ENV); // production | development
 // require('dotenv').config()
 ```
 ### TEMPLATE ENGINE
-
-https://github.com/baryshev/ect [The best one]
-
-https://odino.org/the-simplest-template-engine-for-nodejs/
-
-https://mozilla.github.io/nunjucks/
-
-https://github.com/Deathspike/template-benchmark Template benchmark
-
-https://github.com/twigjs/twig.js
+https://github.com/baryshev/ect [The best one]  
+https://odino.org/the-simplest-template-engine-for-nodejs/  
+https://mozilla.github.io/nunjucks/  
+https://github.com/Deathspike/template-benchmark Template benchmark  
+https://github.com/twigjs/twig.js  
 https://ejs.co/
-
 ### NODE JS AWESOME PARKAGES
 https://github.com/remy/nodemon \
 https://github.com/typicode/lowdb \
@@ -147,7 +141,7 @@ https://github.com/louischatriot/nedb \
 https://github.com/feathersjs/feathers \
 https://www.npmjs.com/package/node-cache \
 https://www.npmjs.com/package/csurf \
-https://github.com/expressjs/vhost \
+https://github.com/expressjs/vhost
 
 ### Monitor Socket On NodeJS
 https://www.rethinkdb.com/blog/websocket-debugging/
