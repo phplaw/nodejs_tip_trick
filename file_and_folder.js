@@ -23,3 +23,5 @@ ensureExists(__dirname + '/upload', 0744, function(err) {
     if (err) // handle folder creation error
     else // we're all good
 });
+    
+//https://stackoverflow.com/questions/21194934/node-how-to-create-a-directory-if-doesnt-exist
