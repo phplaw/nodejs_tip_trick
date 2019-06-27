@@ -179,3 +179,6 @@ https://docs.npmjs.com/files/package.json
 https://flaviocopes.com/npm-semantic-versioning/  
 https://flaviocopes.com/package-json/  
 
+### Cron Job With NodeJS
+https://scotch.io/tutorials/nodejs-cron-jobs-by-examples?fbclid=IwAR3uBei8IuQcK9I8DkIenbXhETGgK2_vIyrVMMWY_WX0ikE_BHTC41sMXKY 
+
