@@ -181,5 +181,7 @@ https://flaviocopes.com/package-json/
 
 ### Cron Job With NodeJS
 https://scotch.io/tutorials/nodejs-cron-jobs-by-examples  
-https://www.npmjs.com/package/node-cron
+https://www.npmjs.com/package/node-cron  
 
+### Authenticate with Socket.io
+https://stackoverflow.com/questions/36788831/authenticating-socket-io-connections
