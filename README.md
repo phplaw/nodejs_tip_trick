@@ -173,3 +173,9 @@ chrome://flags/#allow-insecure-localhost
 https://deliciousbrains.com/https-locally-without-browser-privacy-errors/
 
 https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec
+
+### All about NPM
+https://docs.npmjs.com/files/package.json  
+https://flaviocopes.com/npm-semantic-versioning/  
+https://flaviocopes.com/package-json/  
+
