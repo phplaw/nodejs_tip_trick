@@ -26,3 +26,5 @@ var _routes = require('./routes.js');
 app.use('/things', _routes);
 
 app.listen(3000);
+
+//https://www.tutorialspoint.com/expressjs/expressjs_routing.htm
