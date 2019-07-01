@@ -16,6 +16,7 @@ var clients = io.of('/chat').clients('room'); // all users from room `room`
 
 
 // join & leave room
+// https://stackoverflow.com/questions/16423150/socket-io-subscribe-to-multiple-channels
 // Server
 io.sockets.on('connection', function(socket){
     socket.on('subscribe', function(room) { 
@@ -53,13 +54,13 @@ io.sockets.on('connection', function(socket){
  });
 
 
-This is all pretty straightforward with the socket.io rooms feature. Take a look at the documentation on LearnBoost wiki.
+// This is all pretty straightforward with the socket.io rooms feature. Take a look at the documentation on LearnBoost wiki.
 
-https://github.com/LearnBoost/socket.io/wiki/Rooms
+// https://github.com/LearnBoost/socket.io/wiki/Rooms
 
-It allows for being connected to multiple rooms over a single socket. I put together a quick test with the following code.
+// It allows for being connected to multiple rooms over a single socket. I put together a quick test with the following code.
 
-Server
+// Server
 
 io.sockets.on('connection', function(socket){
     socket.on('subscribe', function(room) { 
@@ -77,8 +78,8 @@ io.sockets.on('connection', function(socket){
         io.sockets.in(data.room).emit('message', data);
     });
 });
-Client
 
+// Client
  var socket = io.connect();
  socket.on('message', function (data) {
   console.log(data);
