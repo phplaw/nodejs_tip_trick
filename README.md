@@ -1,4 +1,18 @@
 ## NodeJS Tips & Tricks for Development
+###RUN NODEJS DEBUG MODE
+
+```javascript
+NODE_ENV=production node --prof app.js
+```
+_DEBUG SOCKET.IO_
+*SERVER*
+```
+DEBUG=* node app.js
+```
+*CLIENT*
+```javascript
+localStorage.debug = '*';
+```
 
 ### CORS on ExpressJS
 ```javascript
