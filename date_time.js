@@ -5,3 +5,6 @@ const connection = mysql.createConnection({.....});
 global.db  = Bluebird.promisifyAll(connection);
 db.queryAsync("SELECT * FROM users").then(function(rows){   
 console.log(rows);});
+
+
+// return (err ? reject(err) : resolve(data));
