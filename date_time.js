@@ -8,4 +8,5 @@ console.log(rows);});
 
 
 // return (err ? reject(err) : resolve(data));
-//https://github.com/lukeb-uk/node-promise-mysql 
+//https://github.com/lukeb-uk/node-promise-mysql
+// http://knexjs.org
