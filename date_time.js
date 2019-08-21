@@ -10,3 +10,18 @@ console.log(rows);});
 // return (err ? reject(err) : resolve(data));
 //https://github.com/lukeb-uk/node-promise-mysql
 // http://knexjs.org
+
+// How to get start and end of day in Javascript?
+var start = new Date();
+start.setHours(0,0,0,0);
+
+var end = new Date();
+end.setHours(23,59,59,999);
+
+alert( start.toUTCString() + ':' + end.toUTCString() );
+// micro second unixtimestamp
+alert( start.getTime() + ':' + end.getTime() );
+
+// MomentJS
+const start = moment().format('YYYY-MM-DD 00:00:01');
+const end = moment().format('YYYY-MM-DD 23:59:59');
