@@ -200,3 +200,7 @@ https://www.npmjs.com/package/node-cron
 
 ### Authenticate with Socket.io
 https://stackoverflow.com/questions/36788831/authenticating-socket-io-connections
+
+### ORM & QUERY BUILDER
+https://typeorm.io/#/
+https://www.npmjs.com/package/sql-bricks
