@@ -142,22 +142,22 @@ console.log(process.env.NODE_ENV); // production | development
 // require('dotenv').config()
 ```
 ### TEMPLATE ENGINE
-https://github.com/baryshev/ect [The best one]  
-https://odino.org/the-simplest-template-engine-for-nodejs/  
-https://mozilla.github.io/nunjucks/  
-https://github.com/Deathspike/template-benchmark Template benchmark  
-https://github.com/twigjs/twig.js  
-https://ejs.co/  
-https://mozilla.github.io/nunjucks/  
+https://github.com/baryshev/ect [The best one]
+https://odino.org/the-simplest-template-engine-for-nodejs/
+https://mozilla.github.io/nunjucks/
+https://github.com/Deathspike/template-benchmark Template benchmark
+https://github.com/twigjs/twig.js
+https://ejs.co/
+https://mozilla.github.io/nunjucks/
 ### NODE JS AWESOME PARKAGES
-https://github.com/remy/nodemon  
-https://github.com/typicode/lowdb  
-https://github.com/louischatriot/nedb  
-https://github.com/feathersjs/feathers  
-https://www.npmjs.com/package/node-cache  
-https://www.npmjs.com/package/csurf  
-https://github.com/expressjs/vhost  
-https://expressjs.com/en/resources/middleware/vhost.html  
+https://github.com/remy/nodemon
+https://github.com/typicode/lowdb
+https://github.com/louischatriot/nedb
+https://github.com/feathersjs/feathers
+https://www.npmjs.com/package/node-cache
+https://www.npmjs.com/package/csurf
+https://github.com/expressjs/vhost
+https://expressjs.com/en/resources/middleware/vhost.html
 ### Monitor Socket On NodeJS
 https://www.rethinkdb.com/blog/websocket-debugging/
 
@@ -190,13 +190,13 @@ https://deliciousbrains.com/https-locally-without-browser-privacy-errors/
 https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec
 
 ### All about NPM
-https://docs.npmjs.com/files/package.json  
-https://flaviocopes.com/npm-semantic-versioning/  
-https://flaviocopes.com/package-json/  
+https://docs.npmjs.com/files/package.json
+https://flaviocopes.com/npm-semantic-versioning/
+https://flaviocopes.com/package-json/
 
 ### Cron Job With NodeJS
-https://scotch.io/tutorials/nodejs-cron-jobs-by-examples  
-https://www.npmjs.com/package/node-cron  
+https://scotch.io/tutorials/nodejs-cron-jobs-by-examples
+https://www.npmjs.com/package/node-cron
 
 ### Authenticate with Socket.io
 https://stackoverflow.com/questions/36788831/authenticating-socket-io-connections
@@ -204,3 +204,15 @@ https://stackoverflow.com/questions/36788831/authenticating-socket-io-connection
 ### ORM & QUERY BUILDER
 https://typeorm.io/#/
 https://www.npmjs.com/package/sql-bricks
+
+### GIT ADD UNTRACKED FILE AUTOMATICALLY
+
+You can define an alias to add all before commit. Just put this lines into your ~/.gitconfig file :
+```
+[alias]
+        ca = !sh -c 'git add -A && git commit -m \"$1\"' -
+```
+Then use your alias like this :
+```
+$ git ca 'Your commit message'
+```
