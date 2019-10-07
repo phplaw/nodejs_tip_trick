@@ -161,7 +161,8 @@ https://expressjs.com/en/resources/middleware/vhost.html
 ### Monitor Socket On NodeJS
 https://www.rethinkdb.com/blog/websocket-debugging/
 
-http://drewblaisdell.github.io/monitor.io/
+http://drewblaisdell.github.io/monitor.io/   
+https://www.npmjs.com/package/tz-db [timezone db]   
 
 ### Awesome MVC Framework
 https://github.com/derbyjs/derby
