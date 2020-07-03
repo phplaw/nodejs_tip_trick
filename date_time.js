@@ -27,7 +27,8 @@ const start = moment().format('YYYY-MM-DD 00:00:01');
 const end = moment().format('YYYY-MM-DD 23:59:59');
 
 // add 30 minutes to current date
-
+// https://www.tutorialspoint.com/How-to-add-30-minutes-to-a-JavaScript-Date-object
 var dt = new Date();
- dt.setMinutes( dt.getMinutes() + 30 );
- document.write( dt );
+dt.setMinutes( dt.getMinutes() + 30 );
+document.write( dt );
+
